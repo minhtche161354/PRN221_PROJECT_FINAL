@@ -17,10 +17,14 @@ D:\project_PRN\Project_PRN221_ShopSale_ClientServer\PROJECT_PRN221\StoreSaleClie
 D:\project_PRN\Project_PRN221_ShopSale_ClientServer\PROJECT_PRN221\StoreSaleClient\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 D:\project_PRN\Project_PRN221_ShopSale_ClientServer\PROJECT_PRN221\StoreSaleClient\obj\Debug\net6.0-windows\StoreSaleClient.csproj.AssemblyReference.cache
 D:\project_PRN\Project_PRN221_ShopSale_ClientServer\PROJECT_PRN221\StoreSaleClient\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\project_PRN\Project_PRN221_ShopSale_ClientServer\PROJECT_PRN221\StoreSaleClient\obj\Debug\net6.0-windows\Pages\Demo.g.cs
 D:\project_PRN\Project_PRN221_ShopSale_ClientServer\PROJECT_PRN221\StoreSaleClient\obj\Debug\net6.0-windows\App.g.cs
+D:\project_PRN\Project_PRN221_ShopSale_ClientServer\PROJECT_PRN221\StoreSaleClient\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
 D:\project_PRN\Project_PRN221_ShopSale_ClientServer\PROJECT_PRN221\StoreSaleClient\obj\Debug\net6.0-windows\StoreSaleClient_MarkupCompile.cache
 D:\project_PRN\Project_PRN221_ShopSale_ClientServer\PROJECT_PRN221\StoreSaleClient\obj\Debug\net6.0-windows\StoreSaleClient_MarkupCompile.lref
 D:\project_PRN\Project_PRN221_ShopSale_ClientServer\PROJECT_PRN221\StoreSaleClient\obj\Debug\net6.0-windows\MainWindow.baml
+D:\project_PRN\Project_PRN221_ShopSale_ClientServer\PROJECT_PRN221\StoreSaleClient\obj\Debug\net6.0-windows\Pages\Demo.baml
+D:\project_PRN\Project_PRN221_ShopSale_ClientServer\PROJECT_PRN221\StoreSaleClient\obj\Debug\net6.0-windows\Themes\Generic.baml
 D:\project_PRN\Project_PRN221_ShopSale_ClientServer\PROJECT_PRN221\StoreSaleClient\obj\Debug\net6.0-windows\StoreSaleClient.g.resources
 D:\project_PRN\Project_PRN221_ShopSale_ClientServer\PROJECT_PRN221\StoreSaleClient\obj\Debug\net6.0-windows\StoreSaleClient.GeneratedMSBuildEditorConfig.editorconfig
 D:\project_PRN\Project_PRN221_ShopSale_ClientServer\PROJECT_PRN221\StoreSaleClient\obj\Debug\net6.0-windows\StoreSaleClient.AssemblyInfoInputs.cache
@@ -32,4 +36,3 @@ D:\project_PRN\Project_PRN221_ShopSale_ClientServer\PROJECT_PRN221\StoreSaleClie
 D:\project_PRN\Project_PRN221_ShopSale_ClientServer\PROJECT_PRN221\StoreSaleClient\obj\Debug\net6.0-windows\StoreSaleClient.pdb
 D:\project_PRN\Project_PRN221_ShopSale_ClientServer\PROJECT_PRN221\StoreSaleClient\obj\Debug\net6.0-windows\StoreSaleClient.genruntimeconfig.cache
 D:\project_PRN\Project_PRN221_ShopSale_ClientServer\PROJECT_PRN221\StoreSaleClient\obj\Debug\net6.0-windows\ref\StoreSaleClient.dll
-D:\project_PRN\Project_PRN221_ShopSale_ClientServer\PROJECT_PRN221\StoreSaleClient\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
