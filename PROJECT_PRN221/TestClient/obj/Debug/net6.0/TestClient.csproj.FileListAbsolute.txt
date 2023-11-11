@@ -1,0 +1,17 @@
+D:\FPTU_STUDY\KỲ8\PRN221\Final_PROJECT\PROJECT_PRN221\TestClient\bin\Debug\net6.0\TestClient.exe
+D:\FPTU_STUDY\KỲ8\PRN221\Final_PROJECT\PROJECT_PRN221\TestClient\bin\Debug\net6.0\TestClient.deps.json
+D:\FPTU_STUDY\KỲ8\PRN221\Final_PROJECT\PROJECT_PRN221\TestClient\bin\Debug\net6.0\TestClient.runtimeconfig.json
+D:\FPTU_STUDY\KỲ8\PRN221\Final_PROJECT\PROJECT_PRN221\TestClient\bin\Debug\net6.0\TestClient.dll
+D:\FPTU_STUDY\KỲ8\PRN221\Final_PROJECT\PROJECT_PRN221\TestClient\bin\Debug\net6.0\TestClient.pdb
+D:\FPTU_STUDY\KỲ8\PRN221\Final_PROJECT\PROJECT_PRN221\TestClient\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\FPTU_STUDY\KỲ8\PRN221\Final_PROJECT\PROJECT_PRN221\TestClient\obj\Debug\net6.0\TestClient.csproj.AssemblyReference.cache
+D:\FPTU_STUDY\KỲ8\PRN221\Final_PROJECT\PROJECT_PRN221\TestClient\obj\Debug\net6.0\TestClient.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPTU_STUDY\KỲ8\PRN221\Final_PROJECT\PROJECT_PRN221\TestClient\obj\Debug\net6.0\TestClient.AssemblyInfoInputs.cache
+D:\FPTU_STUDY\KỲ8\PRN221\Final_PROJECT\PROJECT_PRN221\TestClient\obj\Debug\net6.0\TestClient.AssemblyInfo.cs
+D:\FPTU_STUDY\KỲ8\PRN221\Final_PROJECT\PROJECT_PRN221\TestClient\obj\Debug\net6.0\TestClient.csproj.CoreCompileInputs.cache
+D:\FPTU_STUDY\KỲ8\PRN221\Final_PROJECT\PROJECT_PRN221\TestClient\obj\Debug\net6.0\TestClient.csproj.CopyComplete
+D:\FPTU_STUDY\KỲ8\PRN221\Final_PROJECT\PROJECT_PRN221\TestClient\obj\Debug\net6.0\TestClient.dll
+D:\FPTU_STUDY\KỲ8\PRN221\Final_PROJECT\PROJECT_PRN221\TestClient\obj\Debug\net6.0\refint\TestClient.dll
+D:\FPTU_STUDY\KỲ8\PRN221\Final_PROJECT\PROJECT_PRN221\TestClient\obj\Debug\net6.0\TestClient.pdb
+D:\FPTU_STUDY\KỲ8\PRN221\Final_PROJECT\PROJECT_PRN221\TestClient\obj\Debug\net6.0\TestClient.genruntimeconfig.cache
+D:\FPTU_STUDY\KỲ8\PRN221\Final_PROJECT\PROJECT_PRN221\TestClient\obj\Debug\net6.0\ref\TestClient.dll
