@@ -6,7 +6,17 @@
         xmlns:local="clr-namespace:StoreSaleClient"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
+    <Window.Resources>
+        <local:PageNextIntConverter x:Key="NextButtonLogic"/>
+    </Window.Resources>
+    <Grid HorizontalAlignment="Left">
+        <StackPanel Margin="0,0,-287,0">
+            <UniformGrid x:Name="blockUniformGrid" Columns="3" Margin="10" />
+            <DockPanel VerticalAlignment="Bottom">
+                <Button Content="Prev" x:Name="BtnPrev"  HorizontalAlignment="Left" Padding="10,0" VerticalAlignment="Bottom" Click="BtnPrev_Click" IsEnabled="{Binding Index, Converter={StaticResource NextButtonLogic}}"/>
+                <Button Content="Next" x:Name="BtnNext" HorizontalAlignment="Right" Padding="10,0" VerticalAlignment="Bottom" Click="BtnNext_Click"/>
+            </DockPanel>
+        </StackPanel>
+        
     </Grid>
 </Window>

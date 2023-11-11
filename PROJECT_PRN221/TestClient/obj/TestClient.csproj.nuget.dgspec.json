@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\FPTU_STUDY\\KỲ8\\PRN221\\Final_PROJECT\\PROJECT_PRN221\\TestClient\\TestClient.csproj": {}
+    "D:\\project_PRN\\Project_PRN221_ShopSale_ClientServer\\PROJECT_PRN221\\TestClient\\TestClient.csproj": {}
   },
   "projects": {
-    "D:\\FPTU_STUDY\\KỲ8\\PRN221\\Final_PROJECT\\PROJECT_PRN221\\TestClient\\TestClient.csproj": {
+    "D:\\project_PRN\\Project_PRN221_ShopSale_ClientServer\\PROJECT_PRN221\\TestClient\\TestClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FPTU_STUDY\\KỲ8\\PRN221\\Final_PROJECT\\PROJECT_PRN221\\TestClient\\TestClient.csproj",
+        "projectUniqueName": "D:\\project_PRN\\Project_PRN221_ShopSale_ClientServer\\PROJECT_PRN221\\TestClient\\TestClient.csproj",
         "projectName": "TestClient",
-        "projectPath": "D:\\FPTU_STUDY\\KỲ8\\PRN221\\Final_PROJECT\\PROJECT_PRN221\\TestClient\\TestClient.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\FPTU_STUDY\\KỲ8\\PRN221\\Final_PROJECT\\PROJECT_PRN221\\TestClient\\obj\\",
+        "projectPath": "D:\\project_PRN\\Project_PRN221_ShopSale_ClientServer\\PROJECT_PRN221\\TestClient\\TestClient.csproj",
+        "packagesPath": "C:\\Users\\Minhm\\.nuget\\packages\\",
+        "outputPath": "D:\\project_PRN\\Project_PRN221_ShopSale_ClientServer\\PROJECT_PRN221\\TestClient\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Minhm\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

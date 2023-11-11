@@ -56,6 +56,7 @@ public class Program
     }
     static string ProcessRequest(string request)
     {
+        using(Project_PRN221_ServerContext lmao =  new Project_PRN221_ServerContext())
         try
         {
             string[] holder = request.Split("/**/");
@@ -65,7 +66,8 @@ public class Program
             {
                 case "get_all":
                     {
-                        return "";
+                            var ResultHolder = lmao.Products.ToList();
+                        return JsonConvert.SerializeObject(ResultHolder);
                     }
                 case "save_Bill":
                     {
