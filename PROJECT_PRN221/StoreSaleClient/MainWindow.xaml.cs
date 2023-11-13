@@ -2,6 +2,7 @@
 using Newtonsoft.Json;
 using StoreSaleClient.Models;
 using StoreSaleClient.NormModels;
+using StoreSaleClient.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -159,7 +160,7 @@ namespace StoreSaleClient
 
                 var image = new Image
                 {
-                    Source = (string.IsNullOrEmpty(product.ProductImg)) ? new BitmapImage(new Uri("pack://application:,,,/Images/product_PlaceHolder.png")) : new BitmapImage(new Uri(System.IO.Path.Combine(Directory.GetCurrentDirectory(), "Images", product.ProductImg))),
+                    Source = !string.IsNullOrEmpty(product.ProductImg) && File.Exists(System.IO.Path.Combine(Directory.GetCurrentDirectory(), "Images", product.ProductImg)) ?  new BitmapImage(new Uri(System.IO.Path.Combine(Directory.GetCurrentDirectory(), "Images", product.ProductImg))) : new BitmapImage(new Uri("pack://application:,,,/Images/product_PlaceHolder.png")),
                     Width = 50,
                     Height = 50
                 };
@@ -551,7 +552,7 @@ namespace StoreSaleClient
         }
         private async void LoadEditProductData()
         {
-            ProductListData.ItemsSource = null;
+            List<ProductViewModels> listViewProduct = new List<ProductViewModels>();
             ProductCategoryCbb.ItemsSource = null;
             searchString = null;
             Connector();
@@ -569,7 +570,11 @@ namespace StoreSaleClient
                 {
                     item.ProductImg = System.IO.Path.Combine(Directory.GetCurrentDirectory(), "Images", item.ProductImg);
                 }
+                var holdVM = new ProductViewModels();
+                holdVM.setValue(item);
+                listViewProduct.Add(holdVM);
             }
+
             ProductListData.ItemsSource = products;
         }
         private async void EditProductList_Click(object sender, RoutedEventArgs e)
@@ -584,7 +589,7 @@ namespace StoreSaleClient
             }
             else
             {
-
+                List<ProductViewModels> listViewProduct = new List<ProductViewModels>();
                 ProductCategoryCbb.ItemsSource = null;
                 searchString = null;
                 Connector();
@@ -602,7 +607,11 @@ namespace StoreSaleClient
                     {
                         item.ProductImg = System.IO.Path.Combine(Directory.GetCurrentDirectory(), "Images", item.ProductImg);
                     }
+                    var holdVM = new ProductViewModels();
+                    holdVM.setValue(item);
+                    listViewProduct.Add(holdVM);
                 }
+                
                 ProductListData.ItemsSource = products;
                 Edit_Pop_Up.Visibility = Visibility.Visible;
             }
@@ -615,9 +624,35 @@ namespace StoreSaleClient
                 var openFileDialog = new OpenFileDialog();
                 openFileDialog.Filter = "Image Files (*.png;*.jpg;*.jpeg)|*.png;*.jpg;*.jpeg|All files (*.*)|*.*";
 
+                //if (openFileDialog.ShowDialog() == true)
+                //{
+                //   FilePathTxt.Text = openFileDialog.FileName;
+                //}
+                /*
                 if (openFileDialog.ShowDialog() == true)
                 {
-                    FilePathTxt.Text = openFileDialog.FileName;
+                    // Update the selected item's ProductImg property
+                    if (ProductListData.SelectedItem is Product selectedItem)
+                    {
+                        selectedItem.ProductImg = openFileDialog.FileName;
+
+                        // Trigger a PropertyChanged event for the bound property
+                        OnPropertyChanged(nameof(selectedItem.ProductImg));
+                    }
+                }
+                */
+                if (openFileDialog.ShowDialog() == true)
+                {
+                    // Update the selected item's ProductImg property
+                    if (ProductListData.SelectedItem is Product selectedItem)
+                    {
+                        selectedItem.ProductImg = openFileDialog.FileName;
+
+                        // Update the TextBox text
+                        FilePathTxt.Text = openFileDialog.FileName;
+                        // Trigger a PropertyChanged event for the bound property
+
+                    }
                 }
             }
         }
