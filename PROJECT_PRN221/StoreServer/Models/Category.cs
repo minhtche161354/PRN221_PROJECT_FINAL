@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 
 namespace StoreServer.Models
@@ -12,7 +13,7 @@ namespace StoreServer.Models
 
         public int CategoryId { get; set; }
         public string? CategoryName { get; set; }
-
+        [JsonIgnore]
         public virtual ICollection<Product> Products { get; set; }
     }
 }

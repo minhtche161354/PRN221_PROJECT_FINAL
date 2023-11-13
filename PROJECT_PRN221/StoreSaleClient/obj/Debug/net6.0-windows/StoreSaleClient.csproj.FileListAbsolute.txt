@@ -1,4 +1,5 @@
 D:\project_PRN\Project_PRN221_ShopSale_ClientServer\PROJECT_PRN221\StoreSaleClient\bin\Debug\net6.0-windows\StoreSaleClient.exe
+D:\project_PRN\Project_PRN221_ShopSale_ClientServer\PROJECT_PRN221\StoreSaleClient\bin\Debug\net6.0-windows\Images\product_PlaceHolder.png
 D:\project_PRN\Project_PRN221_ShopSale_ClientServer\PROJECT_PRN221\StoreSaleClient\bin\Debug\net6.0-windows\StoreSaleClient.deps.json
 D:\project_PRN\Project_PRN221_ShopSale_ClientServer\PROJECT_PRN221\StoreSaleClient\bin\Debug\net6.0-windows\StoreSaleClient.runtimeconfig.json
 D:\project_PRN\Project_PRN221_ShopSale_ClientServer\PROJECT_PRN221\StoreSaleClient\bin\Debug\net6.0-windows\StoreSaleClient.dll
@@ -19,6 +20,7 @@ D:\project_PRN\Project_PRN221_ShopSale_ClientServer\PROJECT_PRN221\StoreSaleClie
 D:\project_PRN\Project_PRN221_ShopSale_ClientServer\PROJECT_PRN221\StoreSaleClient\obj\Debug\net6.0-windows\MainWindow.g.cs
 D:\project_PRN\Project_PRN221_ShopSale_ClientServer\PROJECT_PRN221\StoreSaleClient\obj\Debug\net6.0-windows\Pages\Demo.g.cs
 D:\project_PRN\Project_PRN221_ShopSale_ClientServer\PROJECT_PRN221\StoreSaleClient\obj\Debug\net6.0-windows\App.g.cs
+D:\project_PRN\Project_PRN221_ShopSale_ClientServer\PROJECT_PRN221\StoreSaleClient\obj\Debug\net6.0-windows\StoreSaleClient_Content.g.cs
 D:\project_PRN\Project_PRN221_ShopSale_ClientServer\PROJECT_PRN221\StoreSaleClient\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
 D:\project_PRN\Project_PRN221_ShopSale_ClientServer\PROJECT_PRN221\StoreSaleClient\obj\Debug\net6.0-windows\StoreSaleClient_MarkupCompile.cache
 D:\project_PRN\Project_PRN221_ShopSale_ClientServer\PROJECT_PRN221\StoreSaleClient\obj\Debug\net6.0-windows\StoreSaleClient_MarkupCompile.lref

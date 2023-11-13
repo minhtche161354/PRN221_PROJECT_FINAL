@@ -8,8 +8,28 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\Icons\8666681_edit_icon.png" />
+    <None Remove="Images\Icons\file-download-icon.png" />
+    <None Remove="Images\Icons\pngwing.com.png" />
+    <None Remove="Images\product_PlaceHolder.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="7.0.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Icons\8666681_edit_icon.png" />
+    <Resource Include="Images\Icons\file-download-icon.png" />
+    <Resource Include="Images\Icons\pngwing.com.png" />
+    <Content Include="Images\product_PlaceHolder.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Images\ProductImage\" />
   </ItemGroup>
 
 </Project>
